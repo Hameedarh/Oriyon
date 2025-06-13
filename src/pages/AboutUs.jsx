@@ -13,11 +13,14 @@ const AboutUs = () => {
 
         <div className="grid md:grid-cols-2 gap-8 items-start">
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h4 className="text-xl font-bold mb-4">Empowering Livestock Entrepreneurs, Transforming Communities</h4>
+            <h4 className="text-xl font-bold mb-1">Empowering Livestock Entrepreneurs, Transforming Communities</h4>
+            <div className="w-1/2 h-0.5 rounded border-solid bg-[#ffd700] mb-3"></div>
             <p className="mb-4">
               Oriyon International Limited is a pioneering organization dedicated to revolutionizing the livestock industry through sustainable production, innovative solutions, and inclusive economic empowerment. Our mission is to bridge the gap between traditional livestock farming and modern entrepreneurship by equipping individuals with the tools, knowledge, and resources needed to thrive in an ever-evolving agricultural landscape.
             </p>
-            <button className="mt-6 font-semibold bg-teal-500 text-black px-6 py-2 rounded hover:bg-teal-600 shadow-lg transition duration-300 ease-in-out">More About Us</button>
+            <div className='flex items-center justify-center'>
+              <button className="mt-6 font-semibold bg-teal-500 text-black px-6 py-2 rounded hover:bg-teal-600 shadow-lg transition duration-300 ease-in-out">More About Us</button>
+            </div>
           </div>
           <div className="space-y-8">
             <div className="bg-teal-100 p-6 rounded-lg shadow-md">
@@ -86,9 +89,10 @@ const AboutUs = () => {
       <section className="py-10 max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
         <img src="/path/to/your-image.jpg" alt="International Standards" className="w-full h-64 object-cover rounded" />
         <div>
-          <h3 className="text-xl font-semibold mb-4">Our Commitment to International Standards</h3>
+          <h3 className="text-xl font-semibold mb-1">Our Commitment to International Standards</h3>
+          <div className="w-1/2 h-0.5 rounded border-solid bg-[#ffd700] mb-3"></div>
           <p className="mb-4 text-sm">
-            Oriyon International ensures that all products from its traceable farmers and ranches meet the highest international standards...
+            Oriyon International is dedicated to ensuring that all products produced by our network of traceable farmers and integrated ranch facilities meet the highest international standards. By adopting globally recognized best practices in production and processing, we enable smallholder farmers to compete in and access lucrative global markets. Our commitment ensures that every product from Oriyon’s network embodies quality, safety, and traceability, opening doors to international trade.
           </p>
           <button className="flex items-center gap-2 bg-teal-400 text-white px-4 py-2 rounded">Next <FaArrowRight /></button>
         </div>
@@ -96,19 +100,22 @@ const AboutUs = () => {
 
       {/* Section 4: Our Impact */}
       <section className="py-10 max-w-6xl mx-auto px-4">
-        <h3 className="text-xl font-semibold text-center mb-6">Our Impact</h3>
         <div className="grid md:grid-cols-2 gap-8 items-start">
           <img src="/path/to/your-image.jpg" alt="Our Impact" className="w-full h-64 object-cover rounded" />
-          <ul className="list-disc space-y-3 text-sm pl-4">
-            <li>Empower women and youth in agriculture through EEWYLA...</li>
-            <li>Promote sustainability and zero-waste practices...</li>
-            <li>Establish a traceable producer network...</li>
-            <li>Build infrastructure from production to processing...</li>
-          </ul>
-        </div>
-        <div className="flex justify-between mt-8">
-          <button className="flex items-center gap-2 bg-gray-200 text-black px-4 py-2 rounded"><FaArrowLeft /> Previous</button>
-          <button className="flex items-center gap-2 bg-teal-400 text-white px-4 py-2 rounded">Next <FaArrowRight /></button>
+          <div>
+            <h3 className="text-xl font-semibold mb-1">Our Impact</h3>
+            <div className="w-1/2 h-0.5 rounded border-solid bg-[#ffd700] mb-5"></div>
+            <ul className="list-disc space-y-3 text-sm pl-4">           
+              <li>Empower women and youth in agriculture through initiatives like EEWYLA (Economic Empowerment of Women and Youths in Livestock Agriculture).</li>
+              <li>Promote sustainability and zero-waste practices that align with global environmental goals.</li>
+              <li>Establish a traceable producer network, creating a platform for local farmers to trade internationally while ensuring fair value for their products.</li>
+              <li>Build infrastructure that supports the entire value chain—from production to processing to distribution.</li>
+            </ul>
+            <div className="flex items-center gap-2 mt-6">
+              {/* <button className="flex items-center gap-2 bg-gray-200 text-black px-4 py-2 rounded"><FaArrowLeft /> Previous</button> */}
+              <button className="flex items-center gap-2 bg-teal-400 text-white px-4 py-2 rounded">Next <FaArrowRight /></button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -116,11 +123,16 @@ const AboutUs = () => {
       <section className="py-10 max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
         <img src="/path/to/your-image.jpg" alt="Our Commitment" className="w-full h-64 object-cover rounded" />
         <div>
-          <h3 className="text-xl font-semibold mb-4">Our Commitment</h3>
+          <h3 className="text-xl font-semibold mb-1">Our Commitment</h3>
+          <div className="w-1/2 h-0.5 rounded border-solid bg-[#ffd700] mb-3"></div>
           <p className="text-sm mb-4">
-            Oriyon International believes in inclusive growth, global opportunities, and long-term impact through partnerships...
+            At Oriyon International, we believe in inclusive growth, global opportunities, and lasting change through partnerships with organizations like Rumer.NG, government agencies, and international bodies, we ensure that our programs are impactful, transformative, and accessible to all.
           </p>
-          <button className="flex items-center gap-2 bg-gray-200 text-black px-4 py-2 rounded"><FaArrowLeft /> Previous</button>
+          <p className="text-sm mb-4">
+            Join us in redefining livestock entrepreneurship and creating a brighter, more sustainable future for smallholder farmers and their communities. Together, we’re not just producing livestock—we’re building livelihoods and opening pathways to the world.
+          </p>
+          {/* <button className="flex items-center gap-2 bg-gray-200 text-black px-4 py-2 rounded"><FaArrowLeft /> Previous</button> */}
+          <button className="flex items-center gap-2 bg-teal-400 text-white px-4 py-2 rounded">Next <FaArrowRight /></button>
         </div>
       </section>
       <footer className="bg-gray-800 text-white py-6 text-center mt-12">
