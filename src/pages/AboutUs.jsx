@@ -86,24 +86,29 @@ const AboutUs = () => {
       </section>
 
       {/* Section 3: International Standards */}
-      <section className="py-10 max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
-        <img src="/path/to/your-image.jpg" alt="International Standards" className="w-full h-64 object-cover rounded" />
-        <div>
-          <h3 className="text-xl font-semibold mb-1">Our Commitment to International Standards</h3>
-          <div className="w-1/2 h-0.5 rounded border-solid bg-[#ffd700] mb-3"></div>
-          <p className="mb-4 text-sm">
-            Oriyon International is dedicated to ensuring that all products produced by our network of traceable farmers and integrated ranch facilities meet the highest international standards. By adopting globally recognized best practices in production and processing, we enable smallholder farmers to compete in and access lucrative global markets. Our commitment ensures that every product from Oriyon’s network embodies quality, safety, and traceability, opening doors to international trade.
-          </p>
-          <button className="flex items-center gap-2 bg-teal-400 text-white px-4 py-2 rounded">Next <FaArrowRight /></button>
+      <section className="py-10 max-w-6xl mx-auto px-4">
+        <h3 className="text-xl font-semibold mb-1 text-center">About Oriyon International</h3>
+        <div className='grid md:grid-cols-2 gap-8 items-center'>
+          <img src="/path/to/your-image.jpg" alt="International Standards" className="w-full h-64 object-cover rounded" />
+          <div>
+            <h3 className="text-xl font-semibold mb-1">Our Commitment to International Standards</h3>
+            <div className="w-1/2 h-0.5 rounded border-solid bg-[#ffd700] mb-3"></div>
+            <p className="mb-4 text-sm">
+              Oriyon International is dedicated to ensuring that all products produced by our network of traceable farmers and integrated ranch facilities meet the highest international standards. By adopting globally recognized best practices in production and processing, we enable smallholder farmers to compete in and access lucrative global markets. Our commitment ensures that every product from Oriyon’s network embodies quality, safety, and traceability, opening doors to international trade.
+            </p>
+            <button className="flex items-center gap-2 bg-teal-400 text-white px-4 py-2 rounded">Next <FaArrowRight /></button>
+          </div>
         </div>
       </section>
 
       {/* Section 4: Our Impact */}
       <section className="py-10 max-w-6xl mx-auto px-4">
+        <h3 className="text-xl font-semibold mb-1 text-center">About Oriyon International</h3>
+        <h3 className="text-xl font-semibold mb-2 text-center">Our Impact</h3>
         <div className="grid md:grid-cols-2 gap-8 items-start">
           <img src="/path/to/your-image.jpg" alt="Our Impact" className="w-full h-64 object-cover rounded" />
           <div>
-            <h3 className="text-xl font-semibold mb-1">Our Impact</h3>
+            <h3 className="text-xl font-semibold mb-1">Oriyon International works tiredlessly to:</h3>
             <div className="w-1/2 h-0.5 rounded border-solid bg-[#ffd700] mb-5"></div>
             <ul className="list-disc space-y-3 text-sm pl-4">           
               <li>Empower women and youth in agriculture through initiatives like EEWYLA (Economic Empowerment of Women and Youths in Livestock Agriculture).</li>
