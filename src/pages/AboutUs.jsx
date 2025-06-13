@@ -43,7 +43,7 @@ const AboutUs = () => {
           <h3 className="text-center text-xl font-semibold mb-6">What We Do<br/>Oriyon International focuses on:</h3>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-10 flex-wrap">
-            <div className='w-3/12'>
+            <div className='w-4/5 md:w-3/12'>
               <img src="/path/to/your-image.jpg" alt="Integrated Ranch Development" className="w-full h-48 object-cover" />
               <div className="text-center p-4 bg-teal-100 rounded shadow flex flex-col items-center mb-2 justify-center">
                 <div className="text-3xl text-red-500"><GiCow /></div>
@@ -51,7 +51,7 @@ const AboutUs = () => {
                 <p className="text-sm">Establishing breeding programs and implementing best practices for increased productivity</p>
               </div>
             </div>
-            <div className='w-3/12'>
+            <div className='w-4/5 md:w-3/12'>
               <img src="/path/to/your-image.jpg" alt="Integrated Ranch Development" className="w-full h-48 object-cover" />
               <div className="text-center p-4 bg-teal-100 rounded shadow flex flex-col items-center mb-2 justify-center">
                 <div className="text-3xl text-green-500"><GiFarmTractor /></div>
@@ -59,7 +59,7 @@ const AboutUs = () => {
                 <p className="text-sm">Developing solutions for dairy, meat, hides, and biogas production to maximize resource utilization</p>
               </div>
             </div>
-            <div className='w-3/12'>
+            <div className='w-4/5 md:w-3/12'>
               <img src="/path/to/your-image.jpg" alt="Integrated Ranch Development" className="w-full h-48 object-cover" />
               <div className="text-center p-4 bg-teal-100 rounded shadow flex flex-col items-center mb-2 justify-center">
                 <div className="text-3xl text-blue-500"><FaEye /></div>
@@ -67,7 +67,7 @@ const AboutUs = () => {
                 <p className="text-sm">Ensuring every small holder farmer has access to global markets by producing and processing to international Standards</p>
               </div>
             </div>
-            <div className='w-3/12'>
+            <div className='w-4/5 md:w-3/12'>
               <img src="/path/to/your-image.jpg" alt="Integrated Ranch Development" className="w-full h-48 object-cover" />
               <div className="text-center p-4 bg-teal-100 rounded shadow flex flex-col items-center mb-2 justify-center">
                 <div className="text-3xl text-green-500"><GiFarmTractor /></div>
@@ -75,7 +75,7 @@ const AboutUs = () => {
                 <p className="text-sm">Building a world-class, small ruminant ranch with integrated processing facilities...</p>
               </div>
             </div>
-            <div className='w-3/12'>
+            <div className='w-4/5 md:w-3/12'>
               <img src="/path/to/your-image.jpg" alt="Integrated Ranch Development" className="w-full h-48 object-cover" />
               <div className="text-center p-4 bg-teal-100 rounded shadow flex flex-col items-center mb-2 justify-center">
                 <div className="text-3xl text-blue-500"><FaEye /></div>
