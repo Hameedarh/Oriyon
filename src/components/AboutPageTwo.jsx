@@ -27,17 +27,17 @@ function AboutPageTwo() {
                     </div>
                     <div className="bg-black text-white p-6 rounded-lg shadow-md">
                       <div className="flex items-center gap-2 font-semibold justify-center mb-4"><FaEye /> Our Vision</div>
-                      <img src="/path/to/your-image.jpg" alt="International Standards" className="w-full object-cover rounded" />
+                      <img src="/path/to/your-image.jpg" alt="EEWYLA Picture" className="w-full object-cover rounded" />
                     </div>
                   </div>
                 </div>
             </section>
         
-              {/* Section 3: International Standards */}
+             
               <section className="py-10 max-w-6xl mx-auto px-4">
                 <div className='grid md:grid-cols-2 gap-8 items-center'>
                     <div>
-                        <img src="/path/to/your-image.jpg" alt="International Standards" className="w-full h-64 object-cover rounded" />
+                        <img src="/path/to/your-image.jpg" alt="EEWYLA Picture" className="w-full h-64 object-cover rounded" />
                         <div>
                             <p className='text-justify mb-4 text-sm'>By the end of the program, participants leave not just trained but empowered, with everything needed to run a sustainable livestock business. EEWYLA stands out as a program that doesn’t just teach—it transforms.</p>
                         </div>
